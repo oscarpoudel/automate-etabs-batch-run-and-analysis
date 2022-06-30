@@ -9,8 +9,8 @@ from pywinauto.application import Application
 from time import sleep
 from pywinauto import keyboard
 
-#Input the model list path here
-Search_path=r"D:\P_B_Docu\research_articles\inclined_column\final_files\Etabs Models"
+#Input the models list main path here
+Search_path=r"D:\final_files\Etabs Models"
 extension=r".EDB"
 dir=ListDir(Search_path,extension)
 dir.search()
